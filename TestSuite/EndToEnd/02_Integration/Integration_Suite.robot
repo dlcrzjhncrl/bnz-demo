@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    ../../../Configurations/BNZ_Import_File.robot
 
+
 *** Variables ***
 
 

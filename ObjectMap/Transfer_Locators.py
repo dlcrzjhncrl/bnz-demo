@@ -4,7 +4,7 @@ Transfer_To_Button = '//div[@data-testid="PaymentModal"]//button[@data-testid="t
 Transfer_Amount_Textbox = '//form[@id="paymentForm"]//input[@name="amount"]'
 Transfer_Transfer_Button = '//button[@data-monitoring-label="Transfer Form Submit"]'
 Transfer_Search_Textbox = '//div[@data-testid="PaymentModal"]//input[@data-monitoring-label="Transfer Form Search"]'
-Transfer_Result_Button = '//button[@data-monitoring-label="Transfer Form Account Card"]'
+Transfer_Result_Button = '//li//button[@data-monitoring-label="Transfer Form Account Card"]'
 Transfer_Result_SecondItem_Button = '//li[2]//button[@data-monitoring-label="Transfer Form Account Card"]'
 Transfer_From_CurrentBal_Label = '//button[@data-testid="from-account-chooser"]//p[contains(@class,"balance")]'
 Transfer_To_CurrentBal_Label = '//button[@data-testid="to-account-chooser"]//p[contains(@class,"balance")]'

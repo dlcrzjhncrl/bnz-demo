@@ -1,6 +1,8 @@
 ###Dataset###
-Functional_DatasetPath = 'C:\\Users\\jdelacru\\Documents\\GitHub\\bnz-demo\\DataSet\\Functional_DataSet\\Functional_DataSet.xlsx'
-Integration_DatasetPath = 'C:\\Users\\jdelacru\\Documents\\GitHub\\bnz-demo\\DataSet\\Integration_DataSet\\Integration_DataSet.xlsx'
+import os
+dataset_path = os.path.dirname(os.path.dirname(__file__))
+Functional_DatasetPath = dataset_path + "\\DataSet\\Functional_DataSet\\Functional_DataSet.xlsx"
+Integration_DatasetPath = dataset_path + "\\DataSet\\Integration_DataSet\\Integration_DataSet.xlsx"
 RowId = '1'
 
 ###BNZ###
@@ -16,7 +18,7 @@ RESPONSECODE_201 = '201'
 URI = 'https://jsonplaceholder.typicode.com'
 
 ###API Template Files###
-Input_Json = 'C:/Users/jdelacru/Documents/GitHub/bnz-demo/DataSet/Integration_DataSet/inputJson.json'
-Json_Temp = 'C:/Users/jdelacru/Documents/GitHub/bnz-demo/DataSet/Integration_DataSet/jsonTemp.json'
-temp_input = 'C:/Users/jdelacru/Documents/GitHub/bnz-demo/DataSet/Integration_DataSet/templateinput.json'
+Input_Json = dataset_path + '\\\\DataSet\\Integration_DataSet\\inputJson.json'
+Json_Temp = dataset_path + '\\DataSet\\Integration_DataSet\\jsonTemp.json'
+temp_input = dataset_path + '\\DataSet\\Integration_DataSet\\templateinput.json'
 
