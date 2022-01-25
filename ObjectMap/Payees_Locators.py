@@ -1,0 +1,28 @@
+###Payees Page###
+Payees_Payees_Label = '//div[@id="YouMoney"]//span[text()="Payees"]'
+Payees_Add_Button = '//button[contains(@class,"add-payee")]'
+Payees_PayeeExist_ListItem = '//div[@aria-label="${sPayeeName} . Account number ${iAccountNum}.  button"]'
+Payees_Search_Textbox = '//div[contains(@class,"SearchBox")]//input[@placeholder="Search payees"]'
+Payees_ListCountItem_ListItem = '//div[@class="PaddedItem PaddedItem--hover"]'
+Payees_ItemList_ListItem = '//ul[@class="List List--border"]//div[@id="js-payee-item-${INDEX}"]//span[@class="js-payee-name"]'
+Payess_Item_ListItem = '//li[${id}]//span[@class="js-payee-name"]'
+Payees_Sort_Icon = '//h3[contains(@aria-label,"Sort by payee name")]'
+Payees_SortAsc_Icon = '//h3[contains(@aria-label,"Sort by payee name A to Z selected")]'
+Payees_SortDesc_Icon = '//h3[contains(@aria-label,"Sort by payee name Z to A selected")]'
+
+###Add Payee Form###
+AddPayee_Modal = '//div[@class="js-modal-inner Modal-content"]'
+AddPayee_Name_Textbox = '//div[@id="apm"]//input[@id="ComboboxInput-apm-name"]'
+AddPayee_AcctNum_Bank_Textbox = '//div[@id="apm"]//input[@data-rv-value="account.bankCode"]'
+AddPayee_AcctNum_BranchCode_Textbox = '//div[@id="apm"]//input[@data-rv-value="account.branchCode"]'
+AddPayee_AcctNum_AccountNumber_Textbox = '//div[@id="apm"]//input[@data-rv-value="account.accountNumber"]'
+AddPayee_AcctNum_Suffix_Textbox = '//div[@id="apm"]//input[@data-rv-value="account.suffix"]'
+AddPayee_Add_Button = '//div[@id="apm"]//button[text()="Add"]'
+AddPayee_Name_Dropdown = '//div[@id="ComboboxList-apm-name"]'
+AddPayee_Added_Notification = '//div[@id="notification"]//span[@role="alert" and text()="Payee added"]'
+AddPayee_Name_Mandatory_ErrMsg = '//input[@aria-label="Payee Name is a required field. Please complete to continue."]'
+AddPayee_AcctNum_Bank_Mandatory_ErrMsg = '//input[@aria-label="Bank Code is a required field. Please complete to continue."]'
+AddPayee_AcctNum_BranchCode_Mandatory_ErrMsg = '//input[@aria-label="Branch Code is a required field. Please complete to continue."]'
+AddPayee_AcctNum_AccountNumber_Mandatory_ErrMsg = '//input[@aria-label="Account Number is a required field. Please complete to continue."]'
+AddPayee_AcctNum_Suffix_Mandatory_ErrMsg = '//input[@aria-label="Suffix is a required field. Please complete to continue."]'
+

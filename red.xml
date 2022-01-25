@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="HttpLibraryExtended" path="UnifiedTestFramework/Libraries/REST/HttpLibraryExtended/HttpLibraryExtended.py"/>
+    <referencedLibrary type="PYTHON" name="SeleniumLibraryExtended" path="UnifiedTestFramework/Libraries/Selenium/SeleniumLibraryExtended/__init__.py"/>
+    <referencedLibrary type="PYTHON" name="GenericLib" path="UnifiedTestFramework/Libraries/Common/GenericLib.py"/>
+    <referencedLibrary type="PYTHON" name="ExcelLibrary" path="C:/Python37/Lib/site-packages/ExcelLibrary.py"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/Python37/Lib/site-packages/RequestsLibrary/__init__.py"/>
+    <referencedLibrary type="PYTHON" name="JSONLibraryKeywords" path="C:/Python37/Lib/site-packages/JSONLibrary/JSONLibraryKeywords.py"/>
+    <referencedLibrary type="PYTHON" name="BaselineComparator" path="UnifiedTestFramework/Libraries/Common/BaselineComparator/__init__.py"/>
+    <referencedLibrary type="PYTHON" name="pabot.pabotlib" path="C:/Python37/lib/site-packages/pabot/pabotlib.py"/>
+    <pythonpath>
+        <path location="C:/UTF/UTF/UnifiedTestFramework"/>
+    </pythonpath>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+</projectConfiguration>
