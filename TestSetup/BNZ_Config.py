@@ -7,7 +7,7 @@ RowId = '1'
 
 ###BNZ###
 BNZ_URL = "https://www.demo.bnz.co.nz/client/"
-BROWSER = "gc"
+BROWSER = "firefox"
 RETRY = '20'
 RETRY_INTERVAL = '1s'
 
