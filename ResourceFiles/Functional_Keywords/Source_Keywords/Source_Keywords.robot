@@ -94,6 +94,7 @@ Populate Transfer Details
     Input Text    ${Transfer_Search_Textbox}    ${sPayeeName}
     Wait Until Keyword Succeeds    ${RETRY}    ${RETRY_INTERVAL}    Element Should Not Be Visible    ${Transfer_Result_SecondItem_Button}
     Wait Until Keyword Succeeds    ${RETRY}    ${RETRY_INTERVAL}    Wait Until Element Is Not Visible    ${Transfer_Result_SecondItem_Button}
+    Sleep    5s
     Wait Until Element Is Enabled    ${Transfer_Result_Button}    
     Click Element    ${Transfer_Result_Button}
     ${CurrentBal}    Get And Convert Balance To Number    ${sCurrentBal_Locator}    1    -5
