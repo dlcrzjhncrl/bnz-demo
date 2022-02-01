@@ -7,7 +7,7 @@ RowId = '1'
 
 ###BNZ###
 BNZ_URL = "https://www.demo.bnz.co.nz/client/"
-BROWSER = "Chrome"
+BROWSER = "Firefox"
 RETRY = '20'
 RETRY_INTERVAL = '1s'
 
@@ -18,7 +18,7 @@ RESPONSECODE_201 = '201'
 URI = 'https://jsonplaceholder.typicode.com'
 
 ###API Template Files###
-Input_Json = dataset_path + '\\\\DataSet\\Integration_DataSet\\inputJson.json'
+Input_Json = dataset_path + '\\DataSet\\Integration_DataSet\\inputJson.json'
 Json_Temp = dataset_path + '\\DataSet\\Integration_DataSet\\jsonTemp.json'
 temp_input = dataset_path + '\\DataSet\\Integration_DataSet\\templateinput.json'
 
